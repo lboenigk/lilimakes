@@ -4,8 +4,8 @@
 // ============================================================
 
 const SITE = {
-  name: "Your Name",
-  intro: "I make things. Here are a few of them.",
+  name: "Lili makes stuff",
+  intro: "my things.",
   email: "you@example.com"   // leave as "" to hide the email link
 };
 
