@@ -13,24 +13,104 @@ const SITE = {
 // To add a project: copy a whole block (from { to },) and paste it below.
 // Leave a blank line inside a blurb to start a new paragraph.
 // Watch the commas: every block and every photo line ends with one.
+//
+// "category" controls the filter buttons at the top of the page.
+// Use the same word for projects that belong together (e.g. "costumes").
+// A new category word automatically gets its own button.
+// Videos (.mov / .mp4) work in the photos list too.
 
 const PROJECTS = [
   {
-    title: "First project",
-    year: "2026",
-    blurb: "Two or three sentences about what this is, why you made it, and what you learned along the way.\n\nA second paragraph works too, if you want one.",
+    title: "Fish candleholder",
+    category: "ceramics",
+    year: "",
+    blurb: "A short description of this project.",
     photos: [
-      { src: "images/example-1.svg", caption: "The finished piece" },
-      { src: "images/example-2.svg", caption: "An early sketch" },
+      { src: "photos/ceramics/fish_candleholder/IMG_5427.jpg", caption: "" },
+      { src: "photos/ceramics/fish_candleholder/IMG_5428.jpg", caption: "" },
+      { src: "photos/ceramics/fish_candleholder/IMG_7124.jpg", caption: "" },
     ],
   },
 
   {
-    title: "Second project",
-    year: "2025",
-    blurb: "A short description of your second project.",
+    title: "Octopus plate",
+    category: "ceramics",
+    year: "",
+    blurb: "A short description of this project.",
     photos: [
-      { src: "images/example-3.svg", caption: "Work in progress" },
+      { src: "photos/ceramics/octopus_plate/IMG_1625.jpg", caption: "" },
+      { src: "photos/ceramics/octopus_plate/IMG_1626.jpg", caption: "" },
+      { src: "photos/ceramics/octopus_plate/IMG_1627.jpg", caption: "" },
+      { src: "photos/ceramics/octopus_plate/IMG_1628.jpg", caption: "" },
+    ],
+  },
+
+  {
+    title: "Citi Bike costume",
+    category: "costumes",
+    year: "",
+    blurb: "A short description of this project.",
+    photos: [
+      { src: "photos/costumes/citibike_costume/IMG_7005.PNG", caption: "" },
+      { src: "photos/costumes/citibike_costume/IMG_8075.JPG", caption: "" },
+      { src: "photos/costumes/citibike_costume/IMG_8090.JPG", caption: "" },
+    ],
+  },
+
+  {
+    title: "Egg hat",
+    category: "costumes",
+    year: "",
+    blurb: "A short description of this project.",
+    photos: [
+      { src: "photos/costumes/egg_hat/7184B5A6-E6B0-4EA6-BD66-7FAAC097F971IMG_0270.JPEG", caption: "" },
+      { src: "photos/costumes/egg_hat/IMG_2231.JPG", caption: "" },
+      { src: "photos/costumes/egg_hat/IMG_6403.JPEG", caption: "" },
+    ],
+  },
+
+  {
+    title: "Bison toilet paper holder",
+    category: "furniture",
+    year: "",
+    blurb: "A short description of this project.",
+    photos: [
+      { src: "photos/furniture/bison_toilet_holder/IMG_0995.JPG", caption: "" },
+      { src: "photos/furniture/bison_toilet_holder/IMG_0996.JPG", caption: "" },
+    ],
+  },
+
+  {
+    title: "Topo seesaw",
+    category: "furniture",
+    year: "",
+    blurb: "A short description of this project.",
+    photos: [
+      { src: "photos/furniture/topo_seesaw/IMG_9505_2.JPG", caption: "" },
+      { src: "photos/furniture/topo_seesaw/IMG_2576.MOV", caption: "" },
+    ],
+  },
+
+  {
+    title: "Exploded book",
+    category: "other",
+    year: "",
+    blurb: "A short description of this project.",
+    photos: [
+      { src: "photos/exploded_book/IMG_8736.MOV", caption: "" },
+    ],
+  },
+
+  {
+    title: "Topology-optimized candle",
+    category: "other",
+    year: "",
+    blurb: "A short description of this project.",
+    photos: [
+      { src: "photos/top_opt_candle/IMG_0005.JPG", caption: "" },
+      { src: "photos/top_opt_candle/IMG_9840.PNG", caption: "" },
+      { src: "photos/top_opt_candle/IMG_9948.JPG", caption: "" },
+      { src: "photos/top_opt_candle/IMG_9952.JPG", caption: "" },
     ],
   },
 ];

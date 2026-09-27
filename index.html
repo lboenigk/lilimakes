@@ -16,6 +16,8 @@
     <a id="site-email"></a>
   </header>
 
+  <nav class="filters" id="filters" aria-label="Filter projects by category"></nav>
+
   <main id="projects"></main>
 
   <dialog id="viewer" aria-label="Enlarged photo">
@@ -61,12 +63,15 @@
 
     // Projects
     const main = document.getElementById("projects");
-    PROJECTS.forEach((p) => {
+    const isVideo = (src) => /\.(mov|mp4|webm|m4v)$/i.test(src);
+    const sections = PROJECTS.map((p) => {
       const section = el("section", "project");
+      section.dataset.category = (p.category || "").toLowerCase();
 
       const head = el("div", "project-head");
       head.append(el("h2", null, p.title));
       if (p.year) head.append(el("p", "project-year", p.year));
+      if (p.category) head.append(el("p", "project-category", p.category));
 
       const body = el("div", "project-body");
       (p.blurb || "").split(/\n\s*\n/).forEach((para) => {
@@ -77,16 +82,26 @@
       (p.photos || []).forEach((ph) => {
         const fig = el("figure");
         const alt = ph.caption || p.title;
-        const btn = el("button", "photo-btn");
-        btn.type = "button";
-        btn.setAttribute("aria-label", "Enlarge photo: " + alt);
-        const img = el("img");
-        img.src = ph.src;
-        img.alt = alt;
-        img.loading = "lazy";
-        btn.append(img);
-        btn.addEventListener("click", () => openViewer(ph.src, ph.caption, alt));
-        fig.append(btn);
+        if (isVideo(ph.src)) {
+          const vid = el("video", "photo-video");
+          vid.src = ph.src;
+          vid.controls = true;
+          vid.playsInline = true;
+          vid.preload = "metadata";
+          vid.setAttribute("aria-label", alt);
+          fig.append(vid);
+        } else {
+          const btn = el("button", "photo-btn");
+          btn.type = "button";
+          btn.setAttribute("aria-label", "Enlarge photo: " + alt);
+          const img = el("img");
+          img.src = ph.src;
+          img.alt = alt;
+          img.loading = "lazy";
+          btn.append(img);
+          btn.addEventListener("click", () => openViewer(ph.src, ph.caption, alt));
+          fig.append(btn);
+        }
         if (ph.caption) fig.append(el("figcaption", null, ph.caption));
         grid.append(fig);
       });
@@ -94,7 +109,35 @@
       body.append(grid);
       section.append(head, body);
       main.append(section);
+      return section;
     });
+
+    // Category filter: the chosen category moves to the top
+    const filters = document.getElementById("filters");
+    const categories = [...new Set(sections.map((s) => s.dataset.category).filter(Boolean))];
+    function applyFilter(cat) {
+      const matches = sections.filter((s) => !cat || s.dataset.category === cat);
+      const rest = sections.filter((s) => !matches.includes(s));
+      [...matches, ...rest].forEach((s) => {
+        s.classList.toggle("dimmed", !!cat && !matches.includes(s));
+        main.append(s);
+      });
+      filters.querySelectorAll("button").forEach((b) => {
+        b.setAttribute("aria-pressed", String(b.dataset.cat === cat));
+      });
+    }
+    if (categories.length > 1) {
+      ["", ...categories].forEach((cat) => {
+        const b = el("button", "filter-btn", cat || "all");
+        b.type = "button";
+        b.dataset.cat = cat;
+        b.addEventListener("click", () => applyFilter(cat));
+        filters.append(b);
+      });
+      applyFilter("");
+    } else {
+      filters.remove();
+    }
   </script>
 </body>
 </html>
