@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1 id="site-name"></h1>
+    <p id="site-intro"></p>
+    <a id="site-email"></a>
+  </header>
+
+  <main id="projects"></main>
+
+  <dialog id="viewer" aria-label="Enlarged photo">
+    <img alt="">
+    <p class="viewer-caption"></p>
+    <button type="button" class="viewer-close">Close</button>
+  </dialog>
+
+  <!-- Your content lives in projects.js -->
+  <script src="projects.js"></script>
+  <script>
+    function el(tag, cls, text) {
+      const n = document.createElement(tag);
+      if (cls) n.className = cls;
+      if (text) n.textContent = text;
+      return n;
+    }
+
+    // Header
+    document.title = SITE.name + " | Projects";
+    document.getElementById("site-name").textContent = SITE.name;
+    document.getElementById("site-intro").textContent = SITE.intro;
+    const email = document.getElementById("site-email");
+    if (SITE.email) {
+      email.href = "mailto:" + SITE.email;
+      email.textContent = SITE.email;
+    } else {
+      email.remove();
+    }
+
+    // Photo viewer
+    const viewer = document.getElementById("viewer");
+    const viewerImg = viewer.querySelector("img");
+    const viewerCap = viewer.querySelector(".viewer-caption");
+    function openViewer(src, caption, alt) {
+      viewerImg.src = src;
+      viewerImg.alt = alt;
+      viewerCap.textContent = caption || "";
+      viewer.showModal();
+    }
+    viewer.querySelector(".viewer-close").addEventListener("click", () => viewer.close());
+    viewer.addEventListener("click", (e) => { if (e.target === viewer) viewer.close(); });
+
+    // Projects
+    const main = document.getElementById("projects");
+    PROJECTS.forEach((p) => {
+      const section = el("section", "project");
+
+      const head = el("div", "project-head");
+      head.append(el("h2", null, p.title));
+      if (p.year) head.append(el("p", "project-year", p.year));
+
+      const body = el("div", "project-body");
+      (p.blurb || "").split(/\n\s*\n/).forEach((para) => {
+        if (para.trim()) body.append(el("p", "blurb", para.trim()));
+      });
+
+      const grid = el("div", "photos");
+      (p.photos || []).forEach((ph) => {
+        const fig = el("figure");
+        const alt = ph.caption || p.title;
+        const btn = el("button", "photo-btn");
+        btn.type = "button";
+        btn.setAttribute("aria-label", "Enlarge photo: " + alt);
+        const img = el("img");
+        img.src = ph.src;
+        img.alt = alt;
+        img.loading = "lazy";
+        btn.append(img);
+        btn.addEventListener("click", () => openViewer(ph.src, ph.caption, alt));
+        fig.append(btn);
+        if (ph.caption) fig.append(el("figcaption", null, ph.caption));
+        grid.append(fig);
+      });
+
+      body.append(grid);
+      section.append(head, body);
+      main.append(section);
+    });
+  </script>
+</body>
+</html>
