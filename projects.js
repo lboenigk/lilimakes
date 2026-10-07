@@ -168,4 +168,48 @@ const PROJECTS = [
     ],
   },
 
+  {
+    title: "T-Shirt Quilt",
+    category: "textiles",
+    year: "2026",
+    materials: "old t-shirts, sewing machine",
+    blurb: "Quilt made from t-shirts I want to remember but don't wear.",
+    photos: [
+      { src: "", caption: "" },
+    ],
+  },
+
+  {
+    title: "HERE IS FISHING - Flag",
+    category: "textiles",
+    year: "2026",
+    materials: "fabric, programmable embroidery machine",
+    blurb: "Gone fishing? No, HERE IS FISHING! This summer, my friends and I learned how to fish. I made a flag with a programmable embdoidery machine to commemorate the occasion, in the PRESENT TENSE. The fish depicted is modeled after Brutus, a dear departed pet guppy who lives on in our hearts and on this flag.",
+    photos: [
+      { src: "", caption: "" },
+    ],
+  },
+
+  {
+    title: "Salvaged Steel Table",
+    category: "furniture",
+    year: "2026",
+    materials: "steel beams, acrylic sheet",
+    blurb: "My bedside table is made from two steel beams salvaged from a deconstructed chapel in Newton, MA. I'm collaborating with a Building Technology colleague to coordinate a reuse project with the rest of the steel from the chapel, hopefully for undergraduate students interested in sustainable engineering. ",
+    photos: [
+      { src: "", caption: "" },
+    ],
+  },
+
+  {
+    title: "New Haven, Vermont - Density and History",
+    category: "other",
+    year: "2024",
+    materials: "adaptive reuse conceptual design",
+    blurb: "This project repurposes New Haven, Vermont's 170-year-old solid-brick train depot, which was moved from its original site mile and a half over frozen fields in 2021 after Amtrak deemed its distance from the tracks unsafe. Now located in the town center, our intervention activates the historic building by making it the centerpiece of a multi-use recreational and commercial space. The project also facilitates future urban density in New Haven by incorporating onsite wastewater treatment. New Haven currently lacks centralized wastewater infrastructure, leaving homes reliant on septic systems that are costly to maintain and prone to clogging and flooding. Our project pairs a Living Machine, which uses native plants and microbes to digest waste, with a constructed wetland to serve both the depot and neighboring homes. Beyond cutting chemical use, odor, and cost while supporting biodiversity and flood resilience, this shared system lays the groundwork for higher-density housing, offering a path to ease the town's housing shortage while honoring the character and community that define it.",
+    photos: [
+      { src: "", caption: "" },
+    ],
+  },
+
 ];
