@@ -129,7 +129,14 @@
 
       const head = el("div", "project-head");
       head.append(el("h2", null, p.title));
-      if (p.year) head.append(el("p", "project-year", p.year));
+      const details = el("dl", "project-details");
+      [["Year", p.year], ["Materials", p.materials]].forEach(([label, value]) => {
+        if (!value) return;
+        const row = el("div");
+        row.append(el("dt", null, label), el("dd", null, value));
+        details.append(row);
+      });
+      if (details.children.length) head.append(details);
       if (p.category) head.append(el("p", "project-category", p.category));
 
       const body = el("div", "project-body");
