@@ -61,7 +61,7 @@ const PROJECTS = [
     title: "Egg hat",
     category: "costumes",
     year: "",
-    blurb: "A short description of this project.",
+    blurb: "I made this egg carton hat to walk in the annual Easter Parade on Fifth Avenue in New York. I love",
     photos: [
       { src: "photos/costumes/egg_hat/7184B5A6-E6B0-4EA6-BD66-7FAAC097F971IMG_0270.JPEG", caption: "" },
       { src: "photos/costumes/egg_hat/IMG_2231.JPG", caption: "" },

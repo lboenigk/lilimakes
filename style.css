@@ -124,9 +124,9 @@ figure {
 .photo-btn img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  background: var(--rule);
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  background: var(--mount);
 }
 figcaption {
   margin-top: 0.6rem;
@@ -238,7 +238,7 @@ dialog [hidden] { display: none; }
 .photo-video {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  background: var(--rule);
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  background: var(--mount);
 }
