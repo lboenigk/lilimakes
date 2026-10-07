@@ -5,7 +5,7 @@
 
 const SITE = {
   name: "lili's projects",
-  intro: "A collection of some of my favorite projects. I love learning how to use new tools!",
+  intro: "A collection of my favorites.",
   email: "liliboenigk@gmail.com"   // leave as "" to hide the email link
 };
 
@@ -67,8 +67,9 @@ const PROJECTS = [
     materials: "egg cartons, repurposed birthday decorations, paper easter grass",
     blurb: "Eggstravagant hat for NYC's annual Fift Avenue Easter Parade.\n\n[The New York Times called me an egghead,](https://www.nytimes.com/2023/04/10/style/easter-parade-manhattan-fashion.html) I've never felt better.",
     photos: [
-      { src: "photos/costumes/egg_hat/7184B5A6-E6B0-4EA6-BD66-7FAAC097F971IMG_0270.JPEG", caption: "" },
-      { src: "photos/costumes/egg_hat/IMG_2231.JPG", caption: "" },
+      { src: "photos/costumes/egg_hat/IMG_2196.jpeg", caption: "" },
+      { src: "photos/costumes/egg_hat/BB4AFEF6-5E3A-4F9B-9A74-A1F7E6BA5A70IMG_0244.jpeg", caption: "" },
+      { src: "photos/costumes/egg_hat/6657AFB0-89C1-4467-8E79-9D43C36E94F2IMG_8447.jpeg", caption: "" },
       { src: "photos/costumes/egg_hat/IMG_6403.JPEG", caption: "" },
     ],
   },
@@ -92,7 +93,12 @@ const PROJECTS = [
     materials: "cnc-routed plywood",
     blurb: "**TopoPlay** invites the MIT community to learn about *topology optimization*, which leverages generative algorithms to design structures for specific goals. The installation **makes science accessible** while celebrating the **beauty of topology optimized structures**.\n\nThe seesaw is composed out of ribs, each of which was optimized to support different loads while minimizing overall weight. I collaborated with fellow Building Technology researchers Darya Guettler and Mark Hellrich on this project with the support of a *Chancellor's Fund Mind Hand Heart* grant.\n\nI really enjoyed learning how to use a CNC router!",
     photos: [
+      { src: "photos/furniture/topo_seesaw/IMG_7621.mov", caption: "" },
       { src: "photos/furniture/topo_seesaw/IMG_2576.MOV", caption: "" },
+      { src: "photos/furniture/topo_seesaw/0CD864F0-1A48-4408-9923-14DDD3B7F123.jpeg", caption: "" },
+      { src: "photos/furniture/topo_seesaw/IMG_2661.jpeg", caption: "" },
+      { src: "photos/furniture/topo_seesaw/IMG_3053.jpeg", caption: "" },
+      { src: "photos/furniture/topo_seesaw/IMG_2584.mov", caption: "" },
     ],
   },
 
@@ -103,6 +109,9 @@ const PROJECTS = [
     materials: "chopsticks, rubber bands, paper",
     blurb: "Paper Joints explores the structure of a book through iteration. Similar to the lamination of pages along a spine, the project utilizes the iteration of base units to create an expandable and mobile structure. The project considers the relationship of narrative to book form.",
     photos: [
+      { src: "photos/other/exploded_book/IMG_8507.jpeg", caption: "" },
+      { src: "photos/other/exploded_book/IMG_8510.jpeg", caption: "" },
+      { src: "photos/other/exploded_book/IMG_8516.jpeg", caption: "" },
       { src: "photos/other/exploded_book/IMG_8736.MOV", caption: "" },
     ],
   },
@@ -126,7 +135,7 @@ const PROJECTS = [
     category: "furniture",
     year: "2026",
     materials: "plywood offcuts",
-    blurb: "This table is made from the offcuts of our TopoPlay topology-optimized seesaw project. It's not as efficient as [Ron Arad's elegant No Waste Table](https://hivemodern.com/pages/product6676/moroso-ron-arad-no-waste-table?srsltid=AU7gw4WXG7MtGikEYlS4J81ylsM3Xzsd2Sl4qUC0Z0t7HxtmC9O_guMv) but it will hold my coffee. While carrying the pieces to the woodshop, three people asked if I was building a surfboard.",
+    blurb: "This table is made from the offcuts of our TopoPlay topology-optimized seesaw project (see above). It's not quite [Ron Arad's elegant No Waste Table](https://hivemodern.com/pages/product6676/moroso-ron-arad-no-waste-table?srsltid=AU7gw4WXG7MtGikEYlS4J81ylsM3Xzsd2Sl4qUC0Z0t7HxtmC9O_guMv) but it will hold my coffee.\n\nWhile carrying the pieces to the woodshop, three people asked if I was building a surfboard.",
     photos: [
       { src: "photos/furniture/offcut_table/IMG_9505_2.JPG", caption: "" },
     ],
@@ -139,7 +148,8 @@ const PROJECTS = [
     materials: "laser-cut basswood",
     blurb: "This frame is inspired by jali, perforated stone or wooden lattice screen featuring geometric, floral, or kalligraphic patterns, widely used in Indo-Islamic and Mughal architecture. I made it to frame photos from a trip my father, stepmother, and grandmother took to Rajasthan in India, where they fell in love with gorgeous jali screens.",
     photos: [
-      { src: "", caption: "" },
+      { src: "photos/furniture/jali_frame/72938891994__A36759BB-8CAB-4123-A6E0-1D48112B7707.jpeg", caption: "" },
+      { src: "photos/furniture/jali_frame/IMG_1877.jpeg", caption: "" },
     ],
   },
 
@@ -161,7 +171,7 @@ const PROJECTS = [
     materials: "online game",
     blurb: "[ClimateGuessr](https://lboenigk.github.io/Climate-GeoGuessr/) is a web-based game inspired by [GeoGuessr](https://www.geoguessr.com/) that challenges players to identify a location based on climate data. Players are provided sunpath diagrams, psychrometric charts, precipitation data, and other information. It was inspired by an in-class exercise I helped develop for a graduate-level architecture course on climate-responsive design. The game translates the analog exercise into a fun, dynamic game to help students develop their skills in interpreting climate data and understanding how it relates to building design.",
     photos: [
-      { src: "", caption: "" },
+      { src: "photos/other/climate_guessr/climateguessr.png", caption: "" },
     ],
   },
 
@@ -203,9 +213,39 @@ const PROJECTS = [
     category: "other",
     year: "2024",
     materials: "adaptive reuse conceptual design",
-    blurb: "This project repurposes New Haven, Vermont's 170-year-old solid-brick train depot, which was moved from its original site mile and a half over frozen fields in 2021 after Amtrak deemed its distance from the tracks unsafe. Now located in the town center, our intervention activates the historic building by making it the centerpiece of a multi-use recreational and commercial space. The project also facilitates future urban density in New Haven by incorporating onsite wastewater treatment. New Haven currently lacks centralized wastewater infrastructure, leaving homes reliant on septic systems that are costly to maintain and prone to clogging and flooding. Our project pairs a Living Machine, which uses native plants and microbes to digest waste, with a constructed wetland to serve both the depot and neighboring homes. Beyond cutting chemical use, odor, and cost while supporting biodiversity and flood resilience, this shared system lays the groundwork for higher-density housing, offering a path to ease the town's housing shortage while honoring the character and community that define it.\n\n*Senior Civil Engineering Capstone project at Columbia University with Sophia Olmeda, Aaliyah Benjamin-Roach, Nicole Carillo, and Yusuf Hafez*",
+    blurb: "This project repurposes New Haven, Vermont's 170-year-old solid-brick train depot, which was moved from its original site mile and a half over frozen fields in 2021 after Amtrak deemed its distance from the tracks unsafe. Now located in the town center, our intervention activates the historic building by making it the centerpiece of a multi-use recreational and commercial space. The project also facilitates future urban density in New Haven by incorporating onsite wastewater treatment. New Haven currently lacks centralized wastewater infrastructure, leaving homes reliant on septic systems that are costly to maintain and prone to clogging and flooding. Our project pairs a Living Machine, which uses native plants and microbes to digest waste, with a constructed wetland to serve both the depot and neighboring homes. Beyond cutting chemical use, odor, and cost while supporting biodiversity and flood resilience, this shared system lays the groundwork for higher-density housing, offering a path to ease the town's housing shortage while honoring the character and community that define it.\n\n*Senior Civil Engineering Capstone project at Columbia University with Sophia Olmeda, Aaliyah Benjamin-Roach, Nicole Carillo, and Yusuf Hafez*\n\nPhotos of site model below, full writeup here.",
     photos: [
-      { src: "", caption: "" },
+      { src: "photos/other/NH_density/IMG_5061.jpeg", caption: "" },
+      { src: "photos/other/NH_density/IMG_5244.jpeg", caption: "" },
+      { src: "photos/other/NH_density/IMG_5275.jpeg", caption: "" },
+      { src: "photos/other/NH_density/IMG_5277.jpeg", caption: "" },
+    ],
+  },
+
+  {
+    title: "Novarden",
+    category: "other",
+    year: "2025",
+    materials: "guerilla gardening",
+    blurb: "Novarden stands for community, belonging, and the belief that biotech fills voids and brings people together.\n\nThe 2025 harvest yielded 3 spaghetti squash, 2 pints of tomatoes, and sent new roots into the 250 Massachusetts Ave, Cambridge, MA soil.",
+    photos: [
+      { src: "photos/other/novarden/IMG_2703.jpeg", caption: "" },
+      { src: "photos/other/novarden/IMG_3748.jpeg", caption: "" },
+      { src: "photos/other/novarden/IMG_2125.jpeg", caption: "" },
+      { src: "photos/other/novarden/IMG_0966 (1).jpeg", caption: "" },
+      { src: "photos/other/novarden/IMG_3746.jpeg", caption: "" },
+
+    ],
+  },
+
+  {
+    title: "i eat cement",
+    category: "textiles",
+    year: "2026",
+    materials: "printed tshirt",
+    blurb: "I designed the MIT Building Technology merch this year it really speaks to our values",
+    photos: [
+      { src: "photos/textiles/ieatcement/IMG_4410.jpeg", caption: "" },
     ],
   },
 
