@@ -80,7 +80,7 @@ const PROJECTS = [
     category: "furniture",
     year: "2026",
     materials: "welded steel",
-    blurb: "Toilet paper has never been more accessible. I welded on a bison-shaped steel cutout that was given to me by a steel service center in Denver during a research trip for my master's thesis. This was a fun introductory welding project!",
+    blurb: "Toilet paper has never been more accessible. I welded on a bison-shaped steel cutout that was given to me by a steel service center in Denver during a research trip for my master's thesis. The original idea was Ari's– it was a fun introductory welding project!",
     photos: [
       { src: "photos/furniture/bison_toilet_holder/IMG_0995.JPG", caption: "" },
       { src: "photos/furniture/bison_toilet_holder/IMG_0996.JPG", caption: "" },
@@ -130,6 +130,39 @@ const PROJECTS = [
     year: "2026",
     materials: "plywood offcuts",
     blurb: "This table is made from the offcuts of our TopoPlay topology-optimized seesaw project. It's not as efficient as [Ron Arad's elegant No Waste Table] (https://hivemodern.com/pages/product6676/moroso-ron-arad-no-waste-table?srsltid=AU7gw4WXG7MtGikEYlS4J81ylsM3Xzsd2Sl4qUC0Z0t7HxtmC9O_guMv) but it will hold my coffee. While carrying the pieces to the woodshop, three people asked if I was building a surfboard.",
+    photos: [
+      { src: "", caption: "" },
+    ],
+  },
+
+  {
+    title: "Jali-inspired Frame",
+    category: "furniture",
+    year: "2024",
+    materials: "laser-cut basswood",
+    blurb: "This frame is inspired by jali, perforated stone or wooden lattice screen featuring geometric, floral, or kalligraphic patterns, widely used in Indo-Islamic and Mughal architecture. I made it to frame photos from a trip my father, stepmother, and grandmother took to Rajasthan in India, where they fell in love with gorgeous jali screens.",
+    photos: [
+      { src: "", caption: "" },
+    ],
+  },
+
+  {
+    title: "Alphabet Frame",
+    category: "furniture",
+    year: "2026",
+    materials: "laser-cut basswood",
+    blurb: "These frames are engraved with patterns referencing the prints within. I designed it  without mechanical connectors: the frame layers are held together by laser cut clips echoing the same print motifs.",
+    photos: [
+      { src: "", caption: "" },
+    ],
+  },
+
+  {
+    title: "ClimateGuessr",
+    category: "other",
+    year: "2026",
+    materials: "online game",
+    blurb: "[ClimateGuessr](https://lboenigk.github.io/Climate-GeoGuessr/) is a web-based game inspired by [GeoGuessr](https://www.geoguessr.com/) that challenges players to identify a location based on climate data. Players are provided sunpath diagrams, psychrometric charts, precipitation data, and other information. It was inspired by an in-class exercise I helped develop for a graduate-level architecture course on climate-responsive design. The game translates the analog exercise into a fun, dynamic game to help students develop their skills in interpreting climate data and understanding how it relates to building design.",
     photos: [
       { src: "", caption: "" },
     ],
