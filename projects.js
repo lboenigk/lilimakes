@@ -43,7 +43,7 @@ const PROJECTS = [
     blurb: "serving breakfast in an Octopus' garden",
     photos: [
       { src: "photos/ceramics/octopus_plate/4decc493-9845-4d96-bb68-db1db0b2ff5a-image_edit_oai_img_n_trVkBtqraCTJJZnLZsi.png", caption: "" },
-      { src: "/Users/liliboenigk/Library/CloudStorage/OneDrive-MassachusettsInstituteofTechnology/Documents/GitHub/lilimakes/photos/ceramics/octopus_plate/61a9b1e3-a82a-4960-844d-f7dcd5d6a6d2-image_edit_oai_img_2zHk0lIMrlCBPQLKIFkbf.png", caption: "" },
+      { src: "photos/ceramics/octopus_plate/61a9b1e3-a82a-4960-844d-f7dcd5d6a6d2-image_edit_oai_img_2zHk0lIMrlCBPQLKIFkbf.png", caption: "" },
     ],
   },
 
@@ -92,7 +92,6 @@ const PROJECTS = [
     materials: "cnc-routed plywood",
     blurb: "TopoPlay invites the MIT community to learn about topology optimization, which leverages generative algorithms to design structures for specific goals. The installation makes  science accessible while celebrating the beauty of topology optimized structures. The seesaw is composed out of ribs, each of which was optimized to support different loads while minimizing overall weight. I collaborated with fellow Building Technology researchers Darya Guettler and Mark Hellrich on this project with the support of a Chancellor's Fund Mind Hand Heart grant. I really enjoyed learning how to use a CNC router!",
     photos: [
-      { src: "photos/furniture/topo_seesaw/IMG_9505_2.JPG", caption: "" },
       { src: "photos/furniture/topo_seesaw/IMG_2576.MOV", caption: "" },
     ],
   },
@@ -104,7 +103,7 @@ const PROJECTS = [
     materials: "chopsticks, rubber bands, paper",
     blurb: "Paper Joints explores the structure of a book through iteration. Similar to the lamination of pages along a spine, the project utilizes the iteration of base units to create an expandable and mobile structure. The project considers the relationship of narrative to book form.",
     photos: [
-      { src: "photos/exploded_book/IMG_8736.MOV", caption: "" },
+      { src: "photos/other/exploded_book/IMG_8736.MOV", caption: "" },
     ],
   },
 
@@ -115,10 +114,10 @@ const PROJECTS = [
     materials: "cnc-router cut plastic mold, wax candles",
     blurb: "Inspired by the elegant forms of topology-optimized concrete beam by building technology colleagues, I translated the geometry from concrete into wax for lab holiday gifts. I used a CNC router to cut the mold out of a block of plastic. Maybe in the next iteration I can get it to melt along stress lines!",
     photos: [
-      { src: "photos/top_opt_candle/IMG_0005.JPG", caption: "" },
-      { src: "photos/top_opt_candle/IMG_9840.PNG", caption: "" },
-      { src: "photos/top_opt_candle/IMG_9948.JPG", caption: "" },
-      { src: "photos/top_opt_candle/IMG_9952.JPG", caption: "" },
+      { src: "photos/other/top_opt_candle/IMG_0005.JPG", caption: "" },
+      { src: "photos/other/top_opt_candle/IMG_9840.PNG", caption: "" },
+      { src: "photos/other/top_opt_candle/IMG_9948.JPG", caption: "" },
+      { src: "photos/other/top_opt_candle/IMG_9952.JPG", caption: "" },
     ],
   },
 
@@ -129,7 +128,7 @@ const PROJECTS = [
     materials: "plywood offcuts",
     blurb: "This table is made from the offcuts of our TopoPlay topology-optimized seesaw project. It's not as efficient as [Ron Arad's elegant No Waste Table](https://hivemodern.com/pages/product6676/moroso-ron-arad-no-waste-table?srsltid=AU7gw4WXG7MtGikEYlS4J81ylsM3Xzsd2Sl4qUC0Z0t7HxtmC9O_guMv) but it will hold my coffee. While carrying the pieces to the woodshop, three people asked if I was building a surfboard.",
     photos: [
-      { src: "", caption: "" },
+      { src: "photos/furniture/offcut_table/IMG_9505_2.JPG", caption: "" },
     ],
   },
 

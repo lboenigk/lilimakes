@@ -159,10 +159,11 @@
       });
 
       const grid = el("div", "photos");
-      const items = (p.photos || []).map((ph) => ({
+      const photos = (p.photos || []).filter((ph) => ph.src);
+      const items = photos.map((ph) => ({
         src: ph.src, caption: ph.caption, alt: ph.caption || p.title,
       }));
-      (p.photos || []).forEach((ph, i) => {
+      photos.forEach((ph, i) => {
         const fig = el("figure");
         const alt = ph.caption || p.title;
         if (isVideo(ph.src)) {
