@@ -51,7 +51,7 @@ const PROJECTS = [
     title: "CitiBike costume",
     category: "costumes",
     year: "2022",
-    materials: "cardboard, bike lights, heroic mobility infrastructure",
+    materials: "cardboard, bike lights, glorious wheeled community",
     blurb: "For one magical night I joined the venerable fleet.",
     photos: [
       { src: "photos/costumes/citibike_costume/IMG_7005.PNG", caption: "" },
