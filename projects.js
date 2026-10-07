@@ -49,7 +49,7 @@ const PROJECTS = [
     title: "Citi Bike costume",
     category: "costumes",
     year: "",
-    blurb: "A short description of this project.",
+    blurb: "For one night, I was honored to join the venerable fleet.",
     photos: [
       { src: "photos/costumes/citibike_costume/IMG_7005.PNG", caption: "" },
       { src: "photos/costumes/citibike_costume/IMG_8075.JPG", caption: "" },
