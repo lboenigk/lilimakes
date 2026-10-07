@@ -65,7 +65,7 @@ const PROJECTS = [
     category: "costumes",
     year: "2023",
     materials: "egg cartons, repurposed birthday decorations, paper easter grass",
-    blurb: "Eggstravagant hat for NYC's annual Fift Avenue Easter Parade. [The New York Times called me an egghead, I've never felt better.](https://www.nytimes.com/2023/04/10/style/easter-parade-manhattan-fashion.html)",
+    blurb: "Eggstravagant hat for NYC's annual Fift Avenue Easter Parade.\n\n[The New York Times called me an egghead,](https://www.nytimes.com/2023/04/10/style/easter-parade-manhattan-fashion.html) I've never felt better.",
     photos: [
       { src: "photos/costumes/egg_hat/7184B5A6-E6B0-4EA6-BD66-7FAAC097F971IMG_0270.JPEG", caption: "" },
       { src: "photos/costumes/egg_hat/IMG_2231.JPG", caption: "" },
@@ -78,7 +78,7 @@ const PROJECTS = [
     category: "furniture",
     year: "2026",
     materials: "welded steel",
-    blurb: "Toilet paper has never been more accessible. I welded on a bison-shaped steel cutout that was given to me by a steel service center in Denver during a research trip for my master's thesis. The original idea was Ari's– a fun introductory welding project!",
+    blurb: "Toilet paper has never been more accessible. The original idea was Ari's– a fun introductory welding project!\n\nWe added a bison-shaped steel cutout that was given to me by a steel fabricator during a research trip exploring steel reuse.",
     photos: [
       { src: "photos/furniture/bison_toilet_holder/IMG_0995.JPG", caption: "" },
       { src: "photos/furniture/bison_toilet_holder/IMG_0996.JPG", caption: "" },
@@ -90,7 +90,7 @@ const PROJECTS = [
     category: "furniture",
     year: "2025",
     materials: "cnc-routed plywood",
-    blurb: "TopoPlay invites the MIT community to learn about topology optimization, which leverages generative algorithms to design structures for specific goals. The installation makes  science accessible while celebrating the beauty of topology optimized structures.\n\nThe seesaw is composed out of ribs, each of which was optimized to support different loads while minimizing overall weight. I collaborated with fellow Building Technology researchers Darya Guettler and Mark Hellrich on this project with the support of a Chancellor's Fund Mind Hand Heart grant. I really enjoyed learning how to use a CNC router!",
+    blurb: "TopoPlay invites the MIT community to learn about *topology optimization*, which leverages generative algorithms to design structures for specific goals. The installation **makes science accessible** while celebrating the **beauty of topology optimized structures**.\n\nThe seesaw is composed out of ribs, each of which was optimized to support different loads while minimizing overall weight. I collaborated with fellow Building Technology researchers Darya Guettler and Mark Hellrich on this project with the support of a *Chancellor's Fund Mind Hand Heart* grant. I really enjoyed learning how to use a CNC router!",
     photos: [
       { src: "photos/furniture/topo_seesaw/IMG_2576.MOV", caption: "" },
     ],
