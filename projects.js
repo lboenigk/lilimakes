@@ -96,8 +96,6 @@ const PROJECTS = [
       { src: "photos/furniture/topo_seesaw/IMG_7621.mov", caption: "" },
       { src: "photos/furniture/topo_seesaw/IMG_2576.MOV", caption: "" },
       { src: "photos/furniture/topo_seesaw/0CD864F0-1A48-4408-9923-14DDD3B7F123.jpeg", caption: "" },
-      { src: "photos/furniture/topo_seesaw/IMG_2661.jpeg", caption: "" },
-      { src: "photos/furniture/topo_seesaw/IMG_3053.jpeg", caption: "" },
       { src: "photos/furniture/topo_seesaw/IMG_2584.mov", caption: "" },
     ],
   },
@@ -169,7 +167,7 @@ const PROJECTS = [
     category: "other",
     year: "2026",
     materials: "online game",
-    blurb: "[ClimateGuessr](https://lboenigk.github.io/Climate-GeoGuessr/) is a web-based game inspired by [GeoGuessr](https://www.geoguessr.com/) that challenges players to identify a location based on climate data. Players are provided sunpath diagrams, psychrometric charts, precipitation data, and other information. It was inspired by an in-class exercise I helped develop for a graduate-level architecture course on climate-responsive design. The game translates the analog exercise into a fun, dynamic game to help students develop their skills in interpreting climate data and understanding how it relates to building design.",
+    blurb: "ClimateGuessr [(play at this link)](https://lboenigk.github.io/Climate-GeoGuessr/) is a web-based game inspired by [GeoGuessr](https://www.geoguessr.com/) that challenges players to identify a location based on climate data. Players are provided sunpath diagrams, psychrometric charts, precipitation data, and other information. It was inspired by an in-class exercise I helped develop for a graduate-level architecture course on climate-responsive design. The game translates the analog exercise into a fun, dynamic game to help students develop their skills in interpreting climate data and understanding how it relates to building design.",
     photos: [
       { src: "photos/other/climate_guessr/climateguessr.png", caption: "" },
     ],
@@ -191,7 +189,7 @@ const PROJECTS = [
     category: "textiles",
     year: "2026",
     materials: "fabric, programmable embroidery machine",
-    blurb: "Gone fishing? No, **HERE IS FISHING**! This summer, my friends and I learned how to fish. I made a flag with a programmable embdoidery machine to commemorate the occasion, in the PRESENT TENSE. The fish depicted is modeled after Brutus, a dear departed pet guppy who lives on in our hearts and on this flag.",
+    blurb: "Gone fishing? No, **HERE IS FISHING**! This summer, my friends and I learned how to fish. This flag commemorates the occasion in the **PRESENT TENSE**. ",
     photos: [
       { src: "", caption: "" },
     ],
