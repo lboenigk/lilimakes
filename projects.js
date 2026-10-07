@@ -79,10 +79,10 @@ const PROJECTS = [
     category: "furniture",
     year: "2026",
     materials: "welded steel",
-    blurb: "Toilet paper has never been more accessible. The original idea was Ari's!\n\nWe added a bison-shaped steel cutout that was given to me by a steel fabricator during a research trip.",
+    blurb: "Toilet paper has never been more accessible. The original idea was Ari's!",
     photos: [
       { src: "photos/furniture/bison_toilet_holder/IMG_0995.JPG", caption: "" },
-      { src: "photos/furniture/bison_toilet_holder/IMG_0996.JPG", caption: "" },
+      { src: "photos/furniture/bison_toilet_holder/IMG_0996.JPG", caption: "We added a bison-shaped steel cutout that was given to me by a steel fabricator during a research trip" },
     ],
   },
 
@@ -147,7 +147,7 @@ const PROJECTS = [
     blurb: "This frame is inspired by jali, perforated stone or wooden lattice screen featuring geometric, floral, or kalligraphic patterns, widely used in Indo-Islamic and Mughal architecture. I made it to frame photos from a trip my father, stepmother, and grandmother took to Rajasthan in India, where they fell in love with gorgeous jali screens.",
     photos: [
       { src: "photos/furniture/jali_frame/72938891994__A36759BB-8CAB-4123-A6E0-1D48112B7707.jpeg", caption: "" },
-      { src: "photos/furniture/jali_frame/IMG_1877.jpeg", caption: "" },
+      { src: "photos/furniture/jali_frame/jali_frame.png", caption: "" },
     ],
   },
 
