@@ -185,7 +185,7 @@ const PROJECTS = [
     category: "textiles",
     year: "2026",
     materials: "fabric, programmable embroidery machine",
-    blurb: "Gone fishing? No, HERE IS FISHING! This summer, my friends and I learned how to fish. I made a flag with a programmable embdoidery machine to commemorate the occasion, in the PRESENT TENSE. The fish depicted is modeled after Brutus, a dear departed pet guppy who lives on in our hearts and on this flag.",
+    blurb: "Gone fishing? No, **HERE IS FISHING**! This summer, my friends and I learned how to fish. I made a flag with a programmable embdoidery machine to commemorate the occasion, in the PRESENT TENSE. The fish depicted is modeled after Brutus, a dear departed pet guppy who lives on in our hearts and on this flag.",
     photos: [
       { src: "", caption: "" },
     ],
