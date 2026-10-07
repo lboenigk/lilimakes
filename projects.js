@@ -79,7 +79,7 @@ const PROJECTS = [
     category: "furniture",
     year: "2026",
     materials: "welded steel",
-    blurb: "Toilet paper has never been more accessible. The original idea was Ari's– a fun introductory welding project!\n\nWe added a bison-shaped steel cutout that was given to me by a steel fabricator during a research trip exploring steel reuse.",
+    blurb: "Toilet paper has never been more accessible. The original idea was Ari's!\n\nWe added a bison-shaped steel cutout that was given to me by a steel fabricator during a research trip.",
     photos: [
       { src: "photos/furniture/bison_toilet_holder/IMG_0995.JPG", caption: "" },
       { src: "photos/furniture/bison_toilet_holder/IMG_0996.JPG", caption: "" },
@@ -91,7 +91,7 @@ const PROJECTS = [
     category: "furniture",
     year: "2025",
     materials: "cnc-routed plywood",
-    blurb: "**TopoPlay** invites the MIT community to learn about *topology optimization*, which leverages generative algorithms to design structures for specific goals. The installation **makes science accessible** while celebrating the **beauty of topology optimized structures**.\n\nThe seesaw is composed out of ribs, each of which was optimized to support different loads while minimizing overall weight. I collaborated with fellow Building Technology researchers Darya Guettler and Mark Hellrich on this project with the support of a *Chancellor's Fund Mind Hand Heart* grant.\n\nI really enjoyed learning how to use a CNC router!",
+    blurb: "**TopoPlay** invites the MIT community to learn about **topology optimization**, which leverages generative algorithms to design structures for specific goals. The installation **makes science accessible** while celebrating the **beauty of topology optimized structures**.\n\nThe seesaw is composed out of ribs, each of which was optimized to support different loads while minimizing overall weight. I collaborated with fellow Building Technology researchers Darya Guettler and Mark Hellrich on this project with the support of a *Chancellor's Fund Mind Hand Heart* grant.\n\nI really enjoyed learning how to use a CNC router!",
     photos: [
       { src: "photos/furniture/topo_seesaw/IMG_7621.mov", caption: "" },
       { src: "photos/furniture/topo_seesaw/IMG_2576.MOV", caption: "" },
