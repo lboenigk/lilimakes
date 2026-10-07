@@ -121,7 +121,7 @@ const PROJECTS = [
     category: "other",
     year: "2025",
     materials: "cnc-router cut plastic mold, wax candles",
-    blurb: "Inspired by the elegant forms of topology-optimized concrete beam designed by building technology colleagues, I translated the geometry from concrete into wax for lab holiday gifts. I used a CNC router to cut the mold out of a block of plastic. Maybe in the next iteration I can get it to melt along stress lines!",
+    blurb: "Inspired by the elegant forms of topology-optimized concrete beam designed by building technology colleagues, I translated the geometry from concrete into wax for lab holiday gifts. I used a CNC router to cut the mold out of a block of plastic. \n\nMaybe in the next iteration I can get it to melt along stress lines...",
     photos: [
       { src: "photos/other/top_opt_candle/IMG_0005.JPG", caption: "" },
       { src: "photos/other/top_opt_candle/IMG_9840.PNG", caption: "" },
