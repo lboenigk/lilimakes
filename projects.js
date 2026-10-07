@@ -14,6 +14,7 @@ const SITE = {
 // Leave a blank line inside a blurb to start a new paragraph.
 // "year" and "materials" show as subheadings under the title (leave "" to hide one).
 // To add a link inside a blurb: [the words to click](https://the-link.com)
+// Formatting inside a blurb: **bold words**, *italic words*
 // Watch the commas: every block and every photo line ends with one.
 //
 // "category" controls the filter buttons at the top of the page.
@@ -27,7 +28,7 @@ const PROJECTS = [
     category: "ceramics",
     year: "2022",
     materials: "Hand-built clay",
-    blurb: "Ceramic candleholder for my fishy friend Freda. I made this while studying abroad at UCL in the free handbuilding studio at the Institute of Making (I miss it dearly)",
+    blurb: "Ceramic candleholder for my fishy friend Freda.\n\nMade while studying abroad at UCL in their Institute of Making (I miss it dearly!)",
     photos: [
       { src: "photos/ceramics/fish_candleholder/IMG_5427.jpg", caption: "" },
       { src: "photos/ceramics/fish_candleholder/IMG_5428.jpg", caption: "" },
@@ -129,7 +130,7 @@ const PROJECTS = [
     category: "furniture",
     year: "2026",
     materials: "plywood offcuts",
-    blurb: "This table is made from the offcuts of our TopoPlay topology-optimized seesaw project. It's not as efficient as [Ron Arad's elegant No Waste Table] (https://hivemodern.com/pages/product6676/moroso-ron-arad-no-waste-table?srsltid=AU7gw4WXG7MtGikEYlS4J81ylsM3Xzsd2Sl4qUC0Z0t7HxtmC9O_guMv) but it will hold my coffee. While carrying the pieces to the woodshop, three people asked if I was building a surfboard.",
+    blurb: "This table is made from the offcuts of our TopoPlay topology-optimized seesaw project. It's not as efficient as [Ron Arad's elegant No Waste Table](https://hivemodern.com/pages/product6676/moroso-ron-arad-no-waste-table?srsltid=AU7gw4WXG7MtGikEYlS4J81ylsM3Xzsd2Sl4qUC0Z0t7HxtmC9O_guMv) but it will hold my coffee. While carrying the pieces to the woodshop, three people asked if I was building a surfboard.",
     photos: [
       { src: "", caption: "" },
     ],
@@ -206,7 +207,7 @@ const PROJECTS = [
     category: "other",
     year: "2024",
     materials: "adaptive reuse conceptual design",
-    blurb: "This project repurposes New Haven, Vermont's 170-year-old solid-brick train depot, which was moved from its original site mile and a half over frozen fields in 2021 after Amtrak deemed its distance from the tracks unsafe. Now located in the town center, our intervention activates the historic building by making it the centerpiece of a multi-use recreational and commercial space. The project also facilitates future urban density in New Haven by incorporating onsite wastewater treatment. New Haven currently lacks centralized wastewater infrastructure, leaving homes reliant on septic systems that are costly to maintain and prone to clogging and flooding. Our project pairs a Living Machine, which uses native plants and microbes to digest waste, with a constructed wetland to serve both the depot and neighboring homes. Beyond cutting chemical use, odor, and cost while supporting biodiversity and flood resilience, this shared system lays the groundwork for higher-density housing, offering a path to ease the town's housing shortage while honoring the character and community that define it. Senior Civil Engineering Capstone project at Columbia University with Sophia Olmeda, Aaliyah Benjamin-Roach, Nicole Carillo, and Yusuf Hafez",
+    blurb: "This project repurposes New Haven, Vermont's 170-year-old solid-brick train depot, which was moved from its original site mile and a half over frozen fields in 2021 after Amtrak deemed its distance from the tracks unsafe. Now located in the town center, our intervention activates the historic building by making it the centerpiece of a multi-use recreational and commercial space. The project also facilitates future urban density in New Haven by incorporating onsite wastewater treatment. New Haven currently lacks centralized wastewater infrastructure, leaving homes reliant on septic systems that are costly to maintain and prone to clogging and flooding. Our project pairs a Living Machine, which uses native plants and microbes to digest waste, with a constructed wetland to serve both the depot and neighboring homes. Beyond cutting chemical use, odor, and cost while supporting biodiversity and flood resilience, this shared system lays the groundwork for higher-density housing, offering a path to ease the town's housing shortage while honoring the character and community that define it.\n\nSenior Civil Engineering Capstone project at Columbia University with Sophia Olmeda, Aaliyah Benjamin-Roach, Nicole Carillo, and Yusuf Hafez",
     photos: [
       { src: "", caption: "" },
     ],
