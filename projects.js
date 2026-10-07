@@ -86,11 +86,11 @@ const PROJECTS = [
   },
 
   {
-    title: "TopoPlay: a topology-Optimized seesaw",
+    title: "TopoPlay: topology-Optimized seesaw",
     category: "furniture",
     year: "2025",
     materials: "cnc-routed plywood",
-    blurb: "TopoPlay invites the MIT community to learn about *topology optimization*, which leverages generative algorithms to design structures for specific goals. The installation **makes science accessible** while celebrating the **beauty of topology optimized structures**.\n\nThe seesaw is composed out of ribs, each of which was optimized to support different loads while minimizing overall weight. I collaborated with fellow Building Technology researchers Darya Guettler and Mark Hellrich on this project with the support of a *Chancellor's Fund Mind Hand Heart* grant. I really enjoyed learning how to use a CNC router!",
+    blurb: "**TopoPlay** invites the MIT community to learn about *topology optimization*, which leverages generative algorithms to design structures for specific goals. The installation **makes science accessible** while celebrating the **beauty of topology optimized structures**.\n\nThe seesaw is composed out of ribs, each of which was optimized to support different loads while minimizing overall weight. I collaborated with fellow Building Technology researchers Darya Guettler and Mark Hellrich on this project with the support of a *Chancellor's Fund Mind Hand Heart* grant.\n\nI really enjoyed learning how to use a CNC router!",
     photos: [
       { src: "photos/furniture/topo_seesaw/IMG_2576.MOV", caption: "" },
     ],
