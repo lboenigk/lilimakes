@@ -47,10 +47,10 @@ const PROJECTS = [
   },
 
   {
-    title: "Citi Bike costume",
+    title: "CitiBike costume",
     category: "costumes",
     year: "",
-    blurb: "For one night, I was honored to join the venerable fleet.",
+    blurb: "For one magical night I joined the venerable fleet.",
     photos: [
       { src: "photos/costumes/citibike_costume/IMG_7005.PNG", caption: "" },
       { src: "photos/costumes/citibike_costume/IMG_8075.JPG", caption: "" },
@@ -59,7 +59,7 @@ const PROJECTS = [
   },
 
   {
-    title: "Egg hat",
+    title: "Egghead - 2023 Easter Parade",
     category: "costumes",
     year: "",
     blurb: "Egg carton hat for the annual Easter Parade on Fifth Avenue in New York. [The New York Times called me an egghead. I've never felt better.](https://www.nytimes.com/2023/04/10/style/easter-parade-manhattan-fashion.html)",
@@ -71,10 +71,10 @@ const PROJECTS = [
   },
 
   {
-    title: "Bison toilet paper holder",
+    title: "Extendable toilet paper holder",
     category: "furniture",
     year: "",
-    blurb: "A short description of this project.",
+    blurb: "Toilet paper has never been more accessible. This was a fun introductory welding project. I welded on a bison-shaped steel cutout that was given to me by a steel service center in Denver during a research trip for my master's thesis.",
     photos: [
       { src: "photos/furniture/bison_toilet_holder/IMG_0995.JPG", caption: "" },
       { src: "photos/furniture/bison_toilet_holder/IMG_0996.JPG", caption: "" },
@@ -82,10 +82,10 @@ const PROJECTS = [
   },
 
   {
-    title: "Topo seesaw",
+    title: "TopoPlay: a topology-Optimized seesaw",
     category: "furniture",
     year: "",
-    blurb: "A short description of this project.",
+    blurb: "TopoPlay invites the MIT community to learn about topology optimization, which leverages generative algorithms to design structures for specific goals. The installation makes  science accessible while celebrating the beauty of topology optimized structures. The seesaw is composed out of ribs, each of which was optimized to support different loads while minimizing overall weight. I collaborated with fellow Building Technology researchers Darya Guettler and Mark Hellrich on this project with the support of a Chancellor's Fund Mind Hand Heart grant. I really enjoyed learning how to use a CNC router!",
     photos: [
       { src: "photos/furniture/topo_seesaw/IMG_9505_2.JPG", caption: "" },
       { src: "photos/furniture/topo_seesaw/IMG_2576.MOV", caption: "" },
@@ -93,10 +93,10 @@ const PROJECTS = [
   },
 
   {
-    title: "Exploded book",
+    title: "Paper Joints",
     category: "other",
     year: "",
-    blurb: "A short description of this project.",
+    blurb: "Paper Joints explores the structure of a book through iteration. Similar to the lamination of pages along a spine, the project utilizes the iteration of base units to create an expandable and mobile structure. The project considers the relationship of narrative to book form. Constructed out of chopsticks, rubber bands, paper.",
     photos: [
       { src: "photos/exploded_book/IMG_8736.MOV", caption: "" },
     ],
