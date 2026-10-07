@@ -12,6 +12,7 @@ const SITE = {
 // Each project is one { ... } block.
 // To add a project: copy a whole block (from { to },) and paste it below.
 // Leave a blank line inside a blurb to start a new paragraph.
+// To add a link inside a blurb: [the words to click](https://the-link.com)
 // Watch the commas: every block and every photo line ends with one.
 //
 // "category" controls the filter buttons at the top of the page.
@@ -61,7 +62,7 @@ const PROJECTS = [
     title: "Egg hat",
     category: "costumes",
     year: "",
-    blurb: "I made this egg carton hat for the annual Easter Parade on Fifth Avenue in New York. I was so glamorous that New York Times called me an egghead. https://www.nytimes.com/2023/04/10/style/easter-parade-manhattan-fashion.html",
+    blurb: "I made this egg carton hat for the annual Easter Parade on Fifth Avenue in New York. [I was so glamorous that the New York Times called me an egghead.](https://www.nytimes.com/2023/04/10/style/easter-parade-manhattan-fashion.html)",
     photos: [
       { src: "photos/costumes/egg_hat/7184B5A6-E6B0-4EA6-BD66-7FAAC097F971IMG_0270.JPEG", caption: "" },
       { src: "photos/costumes/egg_hat/IMG_2231.JPG", caption: "" },
