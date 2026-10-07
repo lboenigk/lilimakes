@@ -95,8 +95,8 @@ main {
   line-height: 1.4;
 }
 .blurb {
-  max-width: 38rem;
   margin: 0 0 1rem;
+  text-align: center;
 }
 
 @media (min-width: 800px) {
