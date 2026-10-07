@@ -30,7 +30,6 @@ const PROJECTS = [
     materials: "Hand-built clay",
     blurb: "Ceramic candleholder for my fishy friend Freda.\n\nMade while studying abroad at UCL in their Institute of Making (I miss it dearly!)",
     photos: [
-      { src: "photos/ceramics/fish_candleholder/IMG_5427.jpg", caption: "" },
       { src: "photos/ceramics/fish_candleholder/IMG_5428.jpg", caption: "" },
       { src: "photos/ceramics/fish_candleholder/IMG_7124.jpg", caption: "" },
     ],
@@ -43,10 +42,8 @@ const PROJECTS = [
     materials: "Hand-built clay",
     blurb: "serving breakfast in an Octopus' garden",
     photos: [
-      { src: "photos/ceramics/octopus_plate/IMG_1625.jpg", caption: "" },
-      { src: "photos/ceramics/octopus_plate/IMG_1626.jpg", caption: "" },
-      { src: "photos/ceramics/octopus_plate/IMG_1627.jpg", caption: "" },
-      { src: "photos/ceramics/octopus_plate/IMG_1628.jpg", caption: "" },
+      { src: "photos/ceramics/octopus_plate/4decc493-9845-4d96-bb68-db1db0b2ff5a-image_edit_oai_img_n_trVkBtqraCTJJZnLZsi.png", caption: "" },
+      { src: "/Users/liliboenigk/Library/CloudStorage/OneDrive-MassachusettsInstituteofTechnology/Documents/GitHub/lilimakes/photos/ceramics/octopus_plate/61a9b1e3-a82a-4960-844d-f7dcd5d6a6d2-image_edit_oai_img_2zHk0lIMrlCBPQLKIFkbf.png", caption: "" },
     ],
   },
 
