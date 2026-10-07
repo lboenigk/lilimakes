@@ -56,7 +56,6 @@ const PROJECTS = [
     photos: [
       { src: "photos/costumes/citibike_costume/IMG_7005.PNG", caption: "" },
       { src: "photos/costumes/citibike_costume/IMG_8075.JPG", caption: "" },
-      { src: "photos/costumes/citibike_costume/IMG_8090.JPG", caption: "" },
     ],
   },
 
