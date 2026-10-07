@@ -37,7 +37,7 @@ const PROJECTS = [
     title: "Octopus plate",
     category: "ceramics",
     year: "",
-    blurb: "serving breakast in an Octopus' garden",
+    blurb: "serving breakfast in an Octopus' garden",
     photos: [
       { src: "photos/ceramics/octopus_plate/IMG_1625.jpg", caption: "" },
       { src: "photos/ceramics/octopus_plate/IMG_1626.jpg", caption: "" },
