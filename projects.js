@@ -24,7 +24,7 @@ const PROJECTS = [
     title: "Fish candleholder",
     category: "ceramics",
     year: "",
-    blurb: "A short description of this project.",
+    blurb: "Ceramic candleholder for my fishy friend Freda. I made this while studying abroad at UCL in the free handbuilding studio at the Institute of Making (I miss it dearly)",
     photos: [
       { src: "photos/ceramics/fish_candleholder/IMG_5427.jpg", caption: "" },
       { src: "photos/ceramics/fish_candleholder/IMG_5428.jpg", caption: "" },
@@ -36,7 +36,7 @@ const PROJECTS = [
     title: "Octopus plate",
     category: "ceramics",
     year: "",
-    blurb: "A short description of this project.",
+    blurb: "serving breakast in an Octopus' garden",
     photos: [
       { src: "photos/ceramics/octopus_plate/IMG_1625.jpg", caption: "" },
       { src: "photos/ceramics/octopus_plate/IMG_1626.jpg", caption: "" },

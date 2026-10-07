@@ -21,9 +21,17 @@
   <main id="projects"></main>
 
   <dialog id="viewer" aria-label="Enlarged photo">
-    <img alt="">
-    <p class="viewer-caption"></p>
-    <button type="button" class="viewer-close">Close</button>
+    <div class="viewer-stage">
+      <button type="button" class="viewer-nav viewer-prev" aria-label="Previous photo">&#8249;</button>
+      <img alt="">
+      <video controls playsinline></video>
+      <button type="button" class="viewer-nav viewer-next" aria-label="Next photo">&#8250;</button>
+    </div>
+    <div class="viewer-foot">
+      <p class="viewer-caption"></p>
+      <p class="viewer-count"></p>
+      <button type="button" class="viewer-close">Close</button>
+    </div>
   </dialog>
 
   <!-- Your content lives in projects.js -->
@@ -51,19 +59,51 @@
     // Photo viewer
     const viewer = document.getElementById("viewer");
     const viewerImg = viewer.querySelector("img");
+    const viewerVid = viewer.querySelector("video");
     const viewerCap = viewer.querySelector(".viewer-caption");
-    function openViewer(src, caption, alt) {
-      viewerImg.src = src;
-      viewerImg.alt = alt;
-      viewerCap.textContent = caption || "";
+    const viewerCount = viewer.querySelector(".viewer-count");
+    const isVideo = (src) => /\.(mov|mp4|webm|m4v)$/i.test(src);
+    let viewerItems = [];
+    let viewerIndex = 0;
+
+    function showViewerItem(i) {
+      viewerIndex = (i + viewerItems.length) % viewerItems.length;
+      const item = viewerItems[viewerIndex];
+      viewerVid.pause();
+      if (isVideo(item.src)) {
+        viewerImg.hidden = true;
+        viewerImg.removeAttribute("src");
+        viewerVid.hidden = false;
+        viewerVid.src = item.src;
+      } else {
+        viewerVid.hidden = true;
+        viewerVid.removeAttribute("src");
+        viewerImg.hidden = false;
+        viewerImg.src = item.src;
+        viewerImg.alt = item.alt;
+      }
+      viewerCap.textContent = item.caption || "";
+      const multi = viewerItems.length > 1;
+      viewerCount.textContent = multi ? (viewerIndex + 1) + " / " + viewerItems.length : "";
+      viewer.querySelectorAll(".viewer-nav").forEach((b) => { b.hidden = !multi; });
+    }
+    function openViewer(items, index) {
+      viewerItems = items;
+      showViewerItem(index);
       viewer.showModal();
     }
+    viewer.querySelector(".viewer-prev").addEventListener("click", () => showViewerItem(viewerIndex - 1));
+    viewer.querySelector(".viewer-next").addEventListener("click", () => showViewerItem(viewerIndex + 1));
+    viewer.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowLeft") { e.preventDefault(); showViewerItem(viewerIndex - 1); }
+      if (e.key === "ArrowRight") { e.preventDefault(); showViewerItem(viewerIndex + 1); }
+    });
+    viewer.addEventListener("close", () => viewerVid.pause());
     viewer.querySelector(".viewer-close").addEventListener("click", () => viewer.close());
     viewer.addEventListener("click", (e) => { if (e.target === viewer) viewer.close(); });
 
     // Projects
     const main = document.getElementById("projects");
-    const isVideo = (src) => /\.(mov|mp4|webm|m4v)$/i.test(src);
     const sections = PROJECTS.map((p) => {
       const section = el("section", "project");
       section.dataset.category = (p.category || "").toLowerCase();
@@ -79,7 +119,10 @@
       });
 
       const grid = el("div", "photos");
-      (p.photos || []).forEach((ph) => {
+      const items = (p.photos || []).map((ph) => ({
+        src: ph.src, caption: ph.caption, alt: ph.caption || p.title,
+      }));
+      (p.photos || []).forEach((ph, i) => {
         const fig = el("figure");
         const alt = ph.caption || p.title;
         if (isVideo(ph.src)) {
@@ -99,7 +142,7 @@
           img.alt = alt;
           img.loading = "lazy";
           btn.append(img);
-          btn.addEventListener("click", () => openViewer(ph.src, ph.caption, alt));
+          btn.addEventListener("click", () => openViewer(items, i));
           fig.append(btn);
         }
         if (ph.caption) fig.append(el("figcaption", null, ph.caption));

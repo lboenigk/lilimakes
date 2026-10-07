@@ -103,7 +103,7 @@ main {
 /* Photos, shown like mounted prints */
 .photos {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
   margin-top: 1.75rem;
 }
@@ -145,11 +145,45 @@ dialog {
   max-width: min(92vw, 1100px);
 }
 dialog::backdrop { background: rgba(10, 12, 11, 0.8); }
-dialog img {
+.viewer-stage {
+  position: relative;
+}
+dialog img,
+dialog video {
   display: block;
   max-width: 100%;
   max-height: 78vh;
   margin: 0 auto;
+}
+dialog [hidden] { display: none; }
+.viewer-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(10, 12, 11, 0.55);
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.viewer-nav:hover { background: rgba(10, 12, 11, 0.8); }
+.viewer-prev { left: 0.5rem; }
+.viewer-next { right: 0.5rem; }
+.viewer-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+}
+.viewer-foot .viewer-caption { flex: 1; }
+.viewer-count {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 .viewer-caption {
   font-style: italic;
@@ -167,3 +201,44 @@ dialog img {
   cursor: pointer;
 }
 .viewer-close:hover { border-color: var(--ink); }
+
+/* Category filter */
+.filters {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 1.5rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.filter-btn {
+  font-family: var(--display);
+  font-size: 0.95rem;
+  text-transform: capitalize;
+  padding: 0.35rem 0.9rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: none;
+  color: var(--ink);
+  cursor: pointer;
+}
+.filter-btn:hover { border-color: var(--ink); }
+.filter-btn[aria-pressed="true"] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+.project-category {
+  margin: 0 0 1.25rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+.project.dimmed { opacity: 0.45; }
+.photo-video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--rule);
+}
