@@ -62,7 +62,7 @@ const PROJECTS = [
     title: "Egg hat",
     category: "costumes",
     year: "",
-    blurb: "I made this egg carton hat for the annual Easter Parade on Fifth Avenue in New York. [I was so glamorous that the New York Times called me an egghead.](https://www.nytimes.com/2023/04/10/style/easter-parade-manhattan-fashion.html)",
+    blurb: "Egg carton hat for the annual Easter Parade on Fifth Avenue in New York. [The New York Times called me an egghead. I've never felt better.](https://www.nytimes.com/2023/04/10/style/easter-parade-manhattan-fashion.html)",
     photos: [
       { src: "photos/costumes/egg_hat/7184B5A6-E6B0-4EA6-BD66-7FAAC097F971IMG_0270.JPEG", caption: "" },
       { src: "photos/costumes/egg_hat/IMG_2231.JPG", caption: "" },
