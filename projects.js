@@ -90,7 +90,7 @@ const PROJECTS = [
     category: "furniture",
     year: "2025",
     materials: "cnc-routed plywood",
-    blurb: "**TopoPlay** invites the MIT community to learn about **topology optimization**, which leverages generative algorithms to design structures for specific goals. The installation **makes science accessible** while celebrating the **beauty of topology optimized structures**.\n\nThe seesaw is composed out of ribs, each of which was optimized to support different loads while minimizing overall weight. I collaborated with fellow Building Technology researchers Darya Guettler and Mark Hellrich on this project with the support of a *Chancellor's Fund Mind Hand Heart* grant.\n\nI really enjoyed learning how to use a CNC router!",
+    blurb: "**TopoPlay** invites the MIT community to learn about **topology optimization**, which leverages generative algorithms to design structures for specific goals. The installation **makes science accessible** while celebrating the **beauty of topology optimized structures**.\n\nThe seesaw is composed out of ribs, each of which was optimized to support different loads while minimizing overall weight. I collaborated with fellow Building Technology researchers Darya Guettler and Mark Hellrich on this project with the support of a *Chancellor's Fund Mind Hand Heart* grant.\n\nI really enjoyed learning how to use a CNC router.",
     photos: [
       { src: "photos/furniture/topo_seesaw/IMG_7621.mov", caption: "" },
       { src: "photos/furniture/topo_seesaw/IMG_2576.MOV", caption: "" },
@@ -166,7 +166,7 @@ const PROJECTS = [
     category: "other",
     year: "2026",
     materials: "online game",
-    blurb: "ClimateGuessr [(play at this link)](https://lboenigk.github.io/Climate-GeoGuessr/) is a web-based game inspired by [GeoGuessr](https://www.geoguessr.com/) that challenges players to identify a location based on climate data. Players are provided sunpath diagrams, psychrometric charts, precipitation data, and other information. It was inspired by an in-class exercise I helped develop for a graduate-level architecture course on climate-responsive design. The game translates the analog exercise into a fun, dynamic game to help students develop their skills in interpreting climate data and understanding how it relates to building design.",
+    blurb: "**ClimateGuessr** [(play at this link)](https://lboenigk.github.io/Climate-GeoGuessr/) is a web-based game modeled after [GeoGuessr](https://www.geoguessr.com/) that challenges players to identify a location based on climate data. Players are provided sunpath diagrams, psychrometric charts, precipitation data, and other information.\n\nIt was inspired by an in-class exercise I helped develop for a graduate-level architecture course on climate-responsive design. The game translates the analog exercise into a fun, dynamic game.",
     photos: [
       { src: "photos/other/climate_guessr/climateguessr.png", caption: "" },
     ],
