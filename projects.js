@@ -123,4 +123,16 @@ const PROJECTS = [
       { src: "photos/top_opt_candle/IMG_9952.JPG", caption: "" },
     ],
   },
+
+  {
+    title: "TopoPlay Offcut Table",
+    category: "furniture",
+    year: "2026",
+    materials: "plywood offcuts",
+    blurb: "This table is made from the offcuts of our TopoPlay topology-optimized seesaw project. It's not as efficient as [Ron Arad's elegant No Waste Table] (https://hivemodern.com/pages/product6676/moroso-ron-arad-no-waste-table?srsltid=AU7gw4WXG7MtGikEYlS4J81ylsM3Xzsd2Sl4qUC0Z0t7HxtmC9O_guMv) but it will hold my coffee. While carrying the pieces to the woodshop, three people asked if I was building a surfboard.",
+    photos: [
+      { src: "", caption: "" },
+    ],
+  },
+
 ];
