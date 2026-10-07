@@ -80,7 +80,7 @@ const PROJECTS = [
     category: "furniture",
     year: "2026",
     materials: "welded steel",
-    blurb: "Toilet paper has never been more accessible. This was a fun introductory welding project. I welded on a bison-shaped steel cutout that was given to me by a steel service center in Denver during a research trip for my master's thesis.",
+    blurb: "Toilet paper has never been more accessible. I welded on a bison-shaped steel cutout that was given to me by a steel service center in Denver during a research trip for my master's thesis. This was a fun introductory welding project.",
     photos: [
       { src: "photos/furniture/bison_toilet_holder/IMG_0995.JPG", caption: "" },
       { src: "photos/furniture/bison_toilet_holder/IMG_0996.JPG", caption: "" },
