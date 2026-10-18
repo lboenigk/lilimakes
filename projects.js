@@ -135,6 +135,8 @@ const PROJECTS = [
     blurb: "This table is made from the offcuts of our TopoPlay topology-optimized seesaw project (see above). It's not quite [Ron Arad's elegant No Waste Table](https://hivemodern.com/pages/product6676/moroso-ron-arad-no-waste-table?srsltid=AU7gw4WXG7MtGikEYlS4J81ylsM3Xzsd2Sl4qUC0Z0t7HxtmC9O_guMv) but it will hold my coffee.",
     photos: [
       { src: "photos/furniture/offcut_table/IMG_9505_2.JPG", caption: "many people asked if I was making a surfboard" },
+      { src: "photos/furniture/offcut_table/IMG_1300.JPG", caption: "flower arrangement by Finn" },
+
     ],
   },
 
@@ -143,10 +145,21 @@ const PROJECTS = [
     category: "furniture",
     year: "2024",
     materials: "laser-cut basswood",
-    blurb: "This frame is inspired by jali, perforated stone or wooden lattice screen featuring geometric, floral, or kalligraphic patterns, widely used in Indo-Islamic and Mughal architecture. I made it to frame photos from a trip my father, stepmother, and grandmother took to Rajasthan in India, where they fell in love with gorgeous jali screens.",
+    blurb: "This frame is inspired by jali, perforated stone or wooden lattice screen featuring geometric, floral, or kalligraphic patterns, widely used in Indo-Islamic and Mughal architecture. I made it to frame photos from a trip my father, stepmother, and grandmother took to Rajasthan in India, where they fell in love with Mughal mosaics.",
     photos: [
       { src: "photos/furniture/jali_frame/72938891994__A36759BB-8CAB-4123-A6E0-1D48112B7707.jpeg", caption: "" },
       { src: "photos/furniture/jali_frame/jali_frame.png", caption: "" },
+    ],
+  },
+
+  {
+    title: "Breaking out",
+    category: "ceramics",
+    year: "2018",
+    materials: "hand-built clay",
+    blurb: "I will eventually plant something that dribbles out of its mouth",
+    photos: [
+      { src: "photos/ceramics/breaking_out/IMG_2030.HEIC", caption: "" },
     ],
   },
 
@@ -157,7 +170,11 @@ const PROJECTS = [
     materials: "laser-cut basswood",
     blurb: "These frames are engraved with patterns referencing the prints within. I designed it  without mechanical connectors: the frame layers are held together by laser cut clips echoing the same print motifs.",
     photos: [
-      { src: "", caption: "" },
+      { src: "photos/furniture/alphabet_frame/IMG_5335.HEIC", caption: "" },
+      { src: "photos/furniture/alphabet_frame/IMG_5336.HEIC", caption: "" },
+      { src: "photos/furniture/alphabet_frame/IMG_5340.HEIC", caption: "" },
+      { src: "photos/furniture/alphabet_frame/IMG_5346.HEIC", caption: "" },
+
     ],
   },
 
@@ -224,9 +241,8 @@ const PROJECTS = [
     category: "other",
     year: "2025",
     materials: "guerilla gardening",
-    blurb: "Novarden stands for community, belonging, and the belief that biotech fills voids and brings people together.\n\nThe 2025 harvest yielded 3 spaghetti squash, 2 pints of tomatoes, and sent new roots into the 250 Massachusetts Ave, Cambridge, MA soil.",
+    blurb: "At Novarden, we build biotech that fills hearts and bellies.\n\nThe roots we sent into the soil at 250 Massachusetts ave yielded yielded 3 spaghetti squash, 2 pints of tomatoes, and community for life.",
     photos: [
-      { src: "photos/other/novarden/IMG_2703.jpeg", caption: "" },
       { src: "photos/other/novarden/IMG_3748.jpeg", caption: "" },
       { src: "photos/other/novarden/IMG_2125.jpeg", caption: "" },
       { src: "photos/other/novarden/IMG_0966 (1).jpeg", caption: "" },
