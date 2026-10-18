@@ -51,7 +51,7 @@ const PROJECTS = [
     title: "CitiBike costume",
     category: "costumes",
     year: "2022",
-    materials: "cardboard, bike lights, glorious wheeled community",
+    materials: "cardboard, bike lights",
     blurb: "For one magical night I joined the venerable fleet.",
     photos: [
       { src: "photos/costumes/citibike_costume/IMG_7005.PNG", caption: "" },
@@ -64,7 +64,7 @@ const PROJECTS = [
     category: "costumes",
     year: "2023",
     materials: "egg cartons, repurposed birthday decorations, paper easter grass",
-    blurb: "Eggstravagant hat for NYC's annual Fift Avenue Easter Parade.\n\n[The New York Times called me an egghead,](https://www.nytimes.com/2023/04/10/style/easter-parade-manhattan-fashion.html) I've never felt better.",
+    blurb: "Eggstravagant hat for NYC's annual Fifth Avenue Easter Parade.\n\n[The New York Times called me an egghead,](https://www.nytimes.com/2023/04/10/style/easter-parade-manhattan-fashion.html) I've never felt better.",
     photos: [
       { src: "photos/costumes/egg_hat/IMG_2196.jpeg", caption: "" },
       { src: "photos/costumes/egg_hat/BB4AFEF6-5E3A-4F9B-9A74-A1F7E6BA5A70IMG_0244.jpeg", caption: "" },
@@ -90,9 +90,9 @@ const PROJECTS = [
     category: "furniture",
     year: "2025",
     materials: "cnc-routed plywood",
-    blurb: "**TopoPlay** invites the MIT community to learn about **topology optimization**, which leverages generative algorithms to design structures for specific goals. The installation **makes science accessible** while celebrating the **beauty of topology optimized structures**.\n\nThe seesaw is composed out of ribs, each of which was optimized to support different loads while minimizing overall weight. I collaborated with fellow Building Technology researchers Darya Guettler and Mark Hellrich on this project with the support of a *Chancellor's Fund Mind Hand Heart* grant.\n\nI really enjoyed learning how to use a CNC router.",
+    blurb: "**TopoPlay** invites the MIT community to learn about **topology optimization**, which leverages generative algorithms to design structures for specific goals. The installation **makes science accessible** while celebrating the **beauty of topology optimized structures**.\n\nThe seesaw is composed out of ribs, each of which was optimized to support different loads while minimizing overall weight. I collaborated with fellow Building Technology researchers Darya Guettler and Mark Hellrich on this project with the support of a *Chancellor's Fund Mind Hand Heart* grant.",
     photos: [
-      { src: "photos/furniture/topo_seesaw/IMG_7621.mov", caption: "" },
+      { src: "photos/furniture/topo_seesaw/IMG_7621.mov", caption: "I really enjoyed learning how to use a CNC router" },
       { src: "photos/furniture/topo_seesaw/IMG_2576.MOV", caption: "" },
       { src: "photos/furniture/topo_seesaw/0CD864F0-1A48-4408-9923-14DDD3B7F123.jpeg", caption: "" },
       { src: "photos/furniture/topo_seesaw/IMG_2584.mov", caption: "" },
