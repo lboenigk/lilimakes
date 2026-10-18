@@ -212,13 +212,28 @@ const PROJECTS = [
   },
 
   {
+    title: "Tree swing bench",
+    category: "furniture",
+    year: "2026",
+    materials: "salvaged wood bench, chain",
+    blurb: "with my dad, converted a bench salvaged from an out-of business Shake Shack 86th in NYC into a tree swing",
+    photos: [
+      { src: "photos/furniture/swing_bench/0c478d37-084a-4826-8018-9c59947708a7.JPG", caption: "" },
+      { src: "photos/furniture/swing_bench/78cddf0d-0586-4abe-a343-64d13c4155d4.JPG", caption: "" },
+
+    ],
+  },
+
+  {
     title: "Salvaged Steel Table",
     category: "furniture",
     year: "2026",
     materials: "steel beams, acrylic sheet",
     blurb: "My bedside table is made from two steel beams salvaged from a deconstructed chapel in Newton, MA. I'm collaborating with a Building Technology colleague to coordinate a reuse project with the rest of the steel from the chapel, hopefully for undergraduate students interested in sustainable engineering. ",
     photos: [
-      { src: "", caption: "" },
+      { src: "photos/furniture/steel_reuse_table/IMG_1302.JPG", caption: "" },
+      { src: "photos/furniture/steel_reuse_table/IMG_1306 2.JPG", caption: "" },
+
     ],
   },
 
