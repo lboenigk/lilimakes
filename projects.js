@@ -164,6 +164,17 @@ const PROJECTS = [
   },
 
   {
+    title: "Boston ice cream matrix",
+    category: "other",
+    year: "2026",
+    materials: "",
+    blurb: "I tried them all so you don't have to",
+    photos: [
+      { src: "", caption: "" },
+    ],
+  },
+
+  {
     title: "Alphabet Frame",
     category: "furniture",
     year: "2026",
