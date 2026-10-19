@@ -6,7 +6,7 @@
 const SITE = {
   name: "lili's projects",
   intro: "A collection of my favorites.",
-  email: "liliboenigk@gmail.com"   // leave as "" to hide the email link
+  email: ""   // leave as "" to hide the email link
 };
 
 // Each project is one { ... } block.
@@ -207,7 +207,9 @@ const PROJECTS = [
     materials: "old t-shirts, sewing machine",
     blurb: "Quilt made from t-shirts I want to remember but don't wear.",
     photos: [
-      { src: "", caption: "" },
+      { src: "photos/textiles/quilt/IMG_1486.JPG", caption: "" },
+      { src: "photos/textiles/quilt/IMG_1487.JPG", caption: "" },
+      { src: "photos/textiles/quilt/IMG_1488.JPG", caption: "" },
     ],
   },
 
@@ -218,7 +220,7 @@ const PROJECTS = [
     materials: "fabric, programmable embroidery machine",
     blurb: "Gone fishing? No, **HERE IS FISHING**! This summer, my friends and I learned how to fish. This flag commemorates the occasion in the **PRESENT TENSE**. ",
     photos: [
-      { src: "", caption: "" },
+      { src: "photos/textiles/hereisfishing/IMG_1492.JPG", caption: "" },
     ],
   },
 
