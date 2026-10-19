@@ -157,7 +157,7 @@ const PROJECTS = [
     category: "ceramics",
     year: "2018",
     materials: "hand-built clay",
-    blurb: "I will eventually plant something that dribbles out of its mouth",
+    blurb: "eventually I'll plant something that dribbles out of its mouth",
     photos: [
       { src: "photos/ceramics/breaking_out/IMG_2030.jpg", caption: "" },
     ],
