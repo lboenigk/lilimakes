@@ -159,7 +159,7 @@ const PROJECTS = [
     materials: "hand-built clay",
     blurb: "I will eventually plant something that dribbles out of its mouth",
     photos: [
-      { src: "photos/ceramics/breaking_out/IMG_2030.HEIC", caption: "" },
+      { src: "photos/ceramics/breaking_out/IMG_2030.jpg", caption: "" },
     ],
   },
 
@@ -181,10 +181,10 @@ const PROJECTS = [
     materials: "laser-cut basswood",
     blurb: "These frames are engraved with patterns referencing the prints within. I designed it  without mechanical connectors: the frame layers are held together by laser cut clips echoing the same print motifs.",
     photos: [
-      { src: "photos/furniture/alphabet_frame/IMG_5335.HEIC", caption: "" },
-      { src: "photos/furniture/alphabet_frame/IMG_5336.HEIC", caption: "" },
-      { src: "photos/furniture/alphabet_frame/IMG_5340.HEIC", caption: "" },
-      { src: "photos/furniture/alphabet_frame/IMG_5346.HEIC", caption: "" },
+      { src: "photos/furniture/alphabet_frame/IMG_5335.jpg", caption: "" },
+      { src: "photos/furniture/alphabet_frame/IMG_5336.jpg", caption: "" },
+      { src: "photos/furniture/alphabet_frame/IMG_5340.jpg", caption: "" },
+      { src: "photos/furniture/alphabet_frame/IMG_5346.jpg", caption: "" },
 
     ],
   },
