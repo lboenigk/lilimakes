@@ -205,7 +205,7 @@ const PROJECTS = [
     category: "textiles",
     year: "2026",
     materials: "old t-shirts, sewing machine",
-    blurb: "Quilt made from t-shirts I want to remember but don't wear.",
+    blurb: "T-shirt memory quilt.",
     photos: [
       { src: "photos/textiles/quilt/IMG_1486.JPG", caption: "" },
       { src: "photos/textiles/quilt/IMG_1487.JPG", caption: "" },
