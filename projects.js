@@ -210,6 +210,8 @@ const PROJECTS = [
       { src: "photos/textiles/quilt/IMG_1486.JPG", caption: "" },
       { src: "photos/textiles/quilt/IMG_1487.JPG", caption: "" },
       { src: "photos/textiles/quilt/IMG_1488.JPG", caption: "" },
+      { src: "photos/textiles/quilt/IMG_1490.JPG", caption: "" },
+
     ],
   },
 
