@@ -267,6 +267,17 @@ const PROJECTS = [
   },
 
   {
+    title: "Boston hot chocolate matrix",
+    category: "other",
+    year: "2026",
+    materials: "lactose tolerance",
+    blurb: "I tried them all so you don't have to",
+    photos: [
+      { src: "photos/other/hot_choc/hot chocolate tier.png", caption: "" },
+    ],
+  },
+  
+  {
     title: "Novarden",
     category: "other",
     year: "2025",
