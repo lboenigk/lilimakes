@@ -28,7 +28,7 @@ const PROJECTS = [
     category: "ceramics",
     year: "2022",
     materials: "Hand-built clay",
-    blurb: "Ceramic candleholder for my fishy friend Freda.",
+    blurb: "candleholder for my fishy friend Freda.",
     photos: [
       { src: "photos/ceramics/fish_candleholder/IMG_5428.jpg", caption: "Made while studying abroad at UCL in their Institute of Making (I miss it dearly!)" },
       { src: "photos/ceramics/fish_candleholder/IMG_7124.jpg", caption: "" },
